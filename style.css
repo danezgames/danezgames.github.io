@@ -1,17 +1,19 @@
-.btn {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-  }
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
   
-  /* On mouse-over */
-  .btn:hover {background: #eee;}
-  
-  .success {color: green;}
-  .info {color: dodgerblue;}
-  .warning {color: orange;}
-  .danger {color: red;}
-  .default {color: black;}
+    /* Styling the button */
+    .btn {
+        cursor: pointer;
+        border: 1px solid #3498db;
+        background-color: transparent;
+        height: 50px;
+        width: 200px;
+        color: #3498db;
+        font-size: 1.5em;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+</style>

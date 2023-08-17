@@ -13,7 +13,7 @@
 }
 nav{
     display: flex;
-    align-items: center;
+    align-items: right;
     padding: 20px 8%;
 }
 nav .logo{
@@ -32,4 +32,16 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color:#000; 
+    text-decoration:none; 
+    cursor:pointer;
+    color: inherit
 }
